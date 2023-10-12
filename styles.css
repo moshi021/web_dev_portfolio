@@ -1,0 +1,65 @@
+body{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+body header{
+    background-color: #FFF8F3;
+    height:837px;
+    width:1600px; 
+
+}    
+
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 55px 235px 730px ; /*742*/
+    
+}
+
+nav span{
+    color:#FD6E0A;
+}
+
+nav p{
+    color:#181818;
+    font-size: 45px;
+    font-weight: 800;
+    
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+   
+}
+
+nav li{
+    list-style: none;
+    margin-left: 50px;
+
+    
+}
+
+nav a{
+    text-decoration: none;
+    color:#474747;
+}
+
+nav button{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    width: 150px;
+    height: 64px;
+    border-radius: 5px;
+    border:0;
+}
+
+.orange_button{
+    background-color:#FD6E0A
+}
+
+
+
+
