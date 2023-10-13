@@ -4,8 +4,14 @@ body{
 }
 body header{
     background-color: #FFF8F3;
-    height:837px;
-    width:1600px; 
+    height:840px;
+    width: 1600px;
+    background-image:url(media/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    
+
+    
 
 }    
 
@@ -13,7 +19,7 @@ nav{
     display:flex;
     justify-content: space-between;
     align-items: center;
-    padding: 55px 235px 730px ; /*742*/
+    padding: 0px 200px ;
     
 }
 
@@ -46,7 +52,9 @@ nav a{
     color:#474747;
 }
 
-nav button{
+
+.orange_button{
+    background-color:#FD6E0A;
     color: #FFF;
     font-size: 20px;
     font-weight: 700;
@@ -56,9 +64,50 @@ nav button{
     border:0;
 }
 
-.orange_button{
-    background-color:#FD6E0A
+
+.banner{
+    padding:0px 38px 0px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
+
+img{
+    padding: 0px 38px 0px 0px;
+    width: 500px;
+    height: 687px;  
+}
+
+.banner_greeting{
+    color:  #474747;
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 0px;
+    
+}
+.banner_text{
+    max-width: 550px;
+}
+
+.banner_title{
+    color:#181818;
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+.div_paragraph{
+    color:#757575;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 5px;
+}
+
+
+
+
 
 
 
